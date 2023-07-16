@@ -35,8 +35,8 @@ def download_files(urls, download_folder):
             print(f"Failed to download: {url}")
 
 if __name__ == "__main__":
-    file_path = 'html_files/keren.html'
-    download_folder = 'hasil_download'
+    file_path = 'html_files/keren.html' # Ganti dengan path file HTML yang memiliki media URLs dan ingin di-download
+    download_folder = 'hasil_download' # Ganti dengan nama folder tempat menyimpan file yang didownload
     
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
